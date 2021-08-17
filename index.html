@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ToDo App | Schedule Everything for better workflow</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="title-div">
+            <h1 class="title">My ToDo List</h1>
+        </div>
+
+        <div class="todo-input-div">
+            <input type="text" name="todo" class="todo-input">
+            <button class="btn" type="submit">Add</button>
+        </div>
+
+        <div class="filter">
+            <label for="todos">Filter:</label>
+            <select name="todos" class="select-filter">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+
+            <div class="sort">
+                <i class="fas fa-sort"></i>
+            </div>
+        </div>
+
+        <div class="todos">
+            <ul class="todo-items">
+                <div class="todo-item">
+                    <li class="list-item">Drink plenty of water</li>
+                    <div class="btn-complete"><i class="fas fa-check"></i></div>
+                    <div class="btn-trash"><i class="fas fa-trash"></i></div>
+                </div>
+                <div class="todo-item">
+                    <li class="list-item">Eat healthy food</li>
+                    <div class="btn-complete"><i class="fas fa-check"></i></div>
+                    <div class="btn-trash"><i class="fas fa-trash"></i></div>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with ❤ by Sagar Paul</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
