@@ -1,5 +1,5 @@
 # ToDo-App
 Todo application made with html, css, Javascript.... with local storage
 
-##Screenshot:-
+<h2>Screenshot:-</h2>
 <img src="screenshot/ss.png">
